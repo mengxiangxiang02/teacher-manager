@@ -9,11 +9,11 @@
 
 	<modules>
 		<module>manager-dal</module> <!-- 公共模块 -->
-		<module>manager-shiro</module> <!-- 权限系统模块 -->
+		<module>manager-shiro</module> 
 		<module>manager-service</module> <!-- API模块 -->
 		<module>manager-web</module> <!-- 管理后台模块 -->
-    <module>teacher-service</module>
-    <module></module>  <module>manager-common</module>
+    	<module>manager-service</module>
+    	<module>manager-common</module>
   </modules>
 
 	<properties>
