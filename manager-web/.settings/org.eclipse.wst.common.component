@@ -4,10 +4,11 @@
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
-        <dependent-module archiveName="manager-dal-${manager-version}.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/manager-dal/manager-dal">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
+        <dependent-module archiveName="manager-dal-2.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/manager-dal/manager-dal">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="manager-shiro-${manager-version}.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/manager-shiro/manager-shiro">
+        <dependent-module archiveName="manager-shiro-2.1.0.jar" deploy-path="/WEB-INF/lib" handle="module:/resource/manager-shiro/manager-shiro">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="teacher-manager"/>

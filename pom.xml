@@ -12,12 +12,11 @@
 		<module>manager-shiro</module> 
 		<module>manager-service</module> <!-- API模块 -->
 		<module>manager-web</module> <!-- 管理后台模块 -->
-    	<module>manager-service</module>
     	<module>manager-common</module>
   </modules>
 
 	<properties>
-		<renren-version>2.1.0</renren-version>
+		<manager-version>2.1.0</manager-version>
 		<java-version>1.7</java-version>
 		<servlet-version>3.1.0</servlet-version>
 		<junit-version>4.12</junit-version>
