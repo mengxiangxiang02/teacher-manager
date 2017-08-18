@@ -1,19 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>io.renren</groupId>
-	<artifactId>renren-security</artifactId>
-	<version>${renren-version}</version>
+	<groupId>team.manager</groupId>
+	<artifactId>manager</artifactId>
+	<version>${manager-version}</version>
 	<packaging>pom</packaging>
-	<description>renren-security</description>
+	<description>team-manager</description>
 
 	<modules>
-		<module>renren-common</module> <!-- 公共模块 -->
-		<module>renren-shiro</module> <!-- 权限系统模块 -->
-		<module>renren-schedule</module> <!-- 定时任务模块 -->
-		<module>renren-gen</module> <!-- 代码生成器模块 -->
-		<module>renren-api</module> <!-- API模块 -->
-		<module>renren-web</module> <!-- 管理后台模块 -->
-	</modules>
+		<module>manager-dal</module> <!-- 公共模块 -->
+		<module>manager-shiro</module> <!-- 权限系统模块 -->
+		<module>manager-service</module> <!-- API模块 -->
+		<module>manager-web</module> <!-- 管理后台模块 -->
+    <module>teacher-service</module>
+    <module></module>  <module>manager-common</module>
+  </modules>
 
 	<properties>
 		<renren-version>2.1.0</renren-version>
